@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh "ls -la" 
                 sh "python app.py"
-                sh 'pylint app.py'
+                sh 'pip install pylint'
             }
         }
     }
