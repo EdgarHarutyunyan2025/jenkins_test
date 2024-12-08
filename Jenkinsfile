@@ -10,7 +10,8 @@ pipeline {
             steps {
                 sh "ls -la" 
                 sh "python app.py"
-                sh 'pip install flake8'
+                sh "pip install flake8"
+                sh "flake8 app.py"
             }
         }
     }
