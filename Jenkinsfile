@@ -4,7 +4,7 @@ pipeline {
             image "python:latest"
             args "--user root"
         }
-
+    }
     triggers {
         githubPush()
         }
