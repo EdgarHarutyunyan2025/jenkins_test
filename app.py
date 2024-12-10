@@ -9,6 +9,7 @@ def greet(name: str) -> str:
 def calculate_sum(a: int, b: int) -> int:
     return a + b
 
+
 def main() -> None:
     """Main function to demonstrate greeting and sum calculation."""
     try:
