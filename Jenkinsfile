@@ -5,6 +5,8 @@ pipeline {
             args "--user root"
         }
 
+    triggers {
+        githubPush()
         }
     stages {
         stage('Git clone') {
