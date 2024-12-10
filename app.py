@@ -1,14 +1,12 @@
 """Example of a clean Python script with perfect pylint score"""
 
 def greet(name: str) -> str:
-    """Return a greeting message for the given name."""
     if not name:
         raise ValueError("Name cannot be empty")
     return f"Hello, {name}!"
 
 
 def calculate_sum(a: int, b: int) -> int:
-    """Return the sum of two integers."""
     return a + b
 
 
